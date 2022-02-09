@@ -1,15 +1,16 @@
-.div{
-    border: 5px solid purple;
-    border-radius: 30px;
-    margin: 10px;
-    padding: 20px;
-    width: 30%;
-    display: inline-block;
-    margin-left: 145px;
+body{
+    background-color: aliceblue;
 }
-.div h3{
+p{
     text-align: center;
+    margin-top: 200px;
+    font-size: 150px;
+    border: 10px dotted red;
+    cursor: pointer;
 }
-.div p{
-    text-align: justify;
+p span:hover{
+    color: red;
+    content: '❤️';
+    transition: 0.3s;
+    font-size: 100px;
 }
